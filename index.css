@@ -1,0 +1,91 @@
+*{
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(22, 22, 22);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+ button{
+    width: 100%;
+}
+.body{
+    width: 700px;
+    border: 1px solid rgba(255, 255, 255, 0.551);
+    padding-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.second input{
+    border: none;
+    margin-bottom: 10px;
+    background: rgba(14, 14, 14, 0.852);
+    padding: 5px 5px;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.627);
+}
+.second p{
+    color: white;
+}
+.first p{
+    color: white;
+    font-size: 80px;
+}
+ button{
+    background: rgb(45, 154, 255);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px ;
+    border-radius: 0px 0px 10px 10px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+@media screen and (max-width:710px) {
+    
+    .body{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    display: flex;
+      }
+    .main{
+        width:100%;
+        display: block;
+        text-align: center;
+       
+    }
+   
+    .second{
+        width: 100%;
+    }
+    .first{
+        width: 100%;
+    }
+}
+@media screen and (max-width:450px) {
+    .second input{
+        width: 100%;
+    }
+    .heading{
+        font-size: 30px;
+    }
+   
+    
+}
